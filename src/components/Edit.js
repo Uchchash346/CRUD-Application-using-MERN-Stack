@@ -24,7 +24,7 @@ const Edit = () => {
     return (
         <div>
             <div className="container">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/">Home2</NavLink>
                 <form className="mt-4">
                     <div className="row">
                         <div className="mb-3 col-lg-6 col-md-6 col-12 col-lg-6 col-md-6 col-12">
