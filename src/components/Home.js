@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="mt-5">
             <div className="container">
-                <div className="add_btn mt-2">
+                <div className="add_btn mt-2 mb-2">
                     <button className="btn btn-primary">Add Data</button>
                 </div>
                 <table className="table">
@@ -35,7 +35,7 @@ const Home = () => {
                             <th scope="row">1</th>
                             <td>meet</td>
                             <td>meet@gmail.com</td>
-                            <td>Web Developer</td> 
+                            <td>Web Developer</td>
                             <td>01875314444</td>
                             <td className="d-flex justify-content-between">
                                 <button className="btn btn-success"><i className="fas fa-eye"></i></button>
