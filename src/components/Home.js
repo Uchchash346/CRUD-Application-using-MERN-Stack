@@ -1,4 +1,7 @@
 import React from 'react';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import CreateIcon from '@mui/icons-material/Create';
 
 const Home = () => {
     return (
@@ -26,9 +29,9 @@ const Home = () => {
                             <td>Web Developer</td>
                             <td>01875314444</td>
                             <td className="d-flex justify-content-between">
-                                <button className="btn btn-success"><i className="fas fa-eye"></i></button>
-                                <button className="btn btn-primary"><i className="fas fa-pen"></i></button>
-                                <button className="btn btn-danger"><i className="fas fa-trash"></i></button>
+                                <button className="btn btn-success"><RemoveRedEyeIcon /></button>
+                                <button className="btn btn-primary"><CreateIcon /></button>
+                                <button className="btn btn-danger"><DeleteOutlineIcon /></button>
                             </td>
                         </tr>
                         <tr>
@@ -38,9 +41,9 @@ const Home = () => {
                             <td>Web Developer</td>
                             <td>01875314444</td>
                             <td className="d-flex justify-content-between">
-                                <button className="btn btn-success"><i className="fas fa-eye"></i></button>
-                                <button className="btn btn-primary"><i className="fas fa-pen"></i></button>
-                                <button className="btn btn-danger"><i className="fas fa-trash"></i></button>
+                                <button className="btn btn-success"><RemoveRedEyeIcon /></button>
+                                <button className="btn btn-primary"><CreateIcon /></button>
+                                <button className="btn btn-danger"><DeleteOutlineIcon /></button>
                             </td>
                         </tr>
                     </tbody>
