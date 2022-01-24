@@ -17,6 +17,10 @@ const Details = () => {
 
             <Card sx={{ maxWidth: 600 }}>
                 <CardContent>
+                    <div className="add_btn">
+                        <button className="btn btn-primary mx-2"><CreateIcon /></button>
+                        <button className="btn btn-danger"><DeleteOutlineIcon /></button>
+                    </div>
                     <div className="row">
                         <div className="left_view col-lg-6 col-md-6 col-12">
                             <img src="/profile.png" alt="" style={{ width: 50 }} alt="profile" />
@@ -26,10 +30,7 @@ const Details = () => {
                             <p className="mt-3"><WorkIcon />Occupation: <span>MERN Stack developer</span></p>
                         </div>
                         <div className="right_view col-lg-6 col-md-6 col-12">
-                            <div className="add_btn">
-                                <button className="btn btn-primary mx-2"><CreateIcon /></button>
-                                <button className="btn btn-danger"><DeleteOutlineIcon /></button>
-                            </div>
+
                             <p className="mt-5"><PhoneAndroidIcon /> Mobile: <span>+8801875314193</span></p>
                             <p className="mt-3"><LocationOnIcon /> Location: <span>Dhaka</span></p>
                             <p className="mt-3">Description: <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</span></p>
